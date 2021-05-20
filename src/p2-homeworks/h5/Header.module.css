@@ -1,0 +1,36 @@
+.link {
+    text-decoration: none;            /*убрать подчеркивание с сылки*/
+    color: darkblue;
+    margin: 10px;
+}
+
+.link:hover {       /*при наведении на линку меняется на розовый*/
+    color: cornflowerblue;
+}
+
+.active {     /*выбранная линка приобретает цвет*/
+    color: aqua;
+}
+
+.block {          /*обычный маленький квадрат*/
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+
+    margin: 10px;
+
+    background: cyan;
+}
+
+.header {
+    display: flex;
+
+    width: 280px;
+    transition-duration: 500ms;  /*время анимации задвижения*/
+    transform: translate(-230px);  /*чтобы бало задвинуто влево*/
+}
+
+.header:hover {    /*при наведении на линку выдвигается*/
+    transition-duration: 500ms;
+    transform: translate(0);
+}

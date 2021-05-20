@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url(https://images3.alphacoders.com/262/262619.jpg);    /* Местоположение фоновой картинки */
+    /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;
+    /* Фон не повторяется */   background-repeat: no-repeat;
+    /* Фон зафиксирован в области просмотра и потому не двигается, когда высота контента превышает высоту изображения */   background-attachment: fixed;
+    /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;
+    /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

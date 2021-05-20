@@ -1,0 +1,38 @@
+.button {
+    margin: 10px;
+    width: 60px;
+    background: darksalmon;
+    color: darkgreen;
+    outline: none;
+}
+
+.button:focus {
+    outline: darkgreen solid 2px;
+}
+
+.button:active {
+    background: darkgreen;
+}
+
+.active {
+    background: greenyellow;
+}
+
+.affair {
+    display: flex;
+}
+
+.iten {
+    margin: 10px;
+    width: 100px;
+}
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+.low {
+    color: lime;
+}

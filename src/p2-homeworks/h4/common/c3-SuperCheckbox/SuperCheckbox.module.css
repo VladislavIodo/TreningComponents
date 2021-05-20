@@ -1,0 +1,29 @@
+
+
+.label {
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.checkbox {
+appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: #69b369;
+}
+
+.checkbox:checked {
+    appearance: none;
+    background-image: url("checkbox_apply_accept_ok_22377.png");
+    background-position: center center;
+}
+
+.checkbox:focus {
+    outline: crimson solid 1px;
+}
+.spanClassName {
+
+}

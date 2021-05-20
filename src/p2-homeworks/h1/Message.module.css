@@ -1,0 +1,75 @@
+.container {
+    width: 500px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    /* align-self: end;
+    justify-self: start; */
+}
+
+.images {
+
+}
+
+.messageContent {
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #A8DDFD;
+    width: 200px;
+    height: 50px;
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+    border: 1px solid #97C6E3;
+    border-radius: 10px;
+}
+.messageContent:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #A8DDFD;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    bottom: 0;
+    left: -15px;
+}
+
+.messageContent:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 17px solid #A8DDFD;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    bottom: -1px;
+    left: -17px;
+}
+
+.message {
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+
+}
+
+.avatar img {
+
+    height: 50px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+
+}
+
+.time {
+    position: absolute;
+    font-size: .85em;
+    font-weight: 300;
+    bottom: 5px;
+    right: 5px;
+}
